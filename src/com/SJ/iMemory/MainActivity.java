@@ -2,6 +2,8 @@ package com.SJ.iMemory;
 
 import android.app.Activity;
 import android.os.Bundle;
+import com.baidu.mapapi.SDKInitializer;
+import com.baidu.mapapi.map.MapView;
 
 public class MainActivity extends Activity {
     /**
