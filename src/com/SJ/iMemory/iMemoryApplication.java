@@ -15,9 +15,8 @@ import com.baidu.mapapi.map.MapView;
 public class iMemoryApplication  extends Application{
     @Override
     public void onCreate() {
-        Log.d("", "[iMemoryApplication] onCreate");
 
-        SDKInitializer.initialize(getApplicationContext());  // 百度地图API初始化。
+        Log.d("", "[iMemoryApplication] onCreate");
 
         super.onCreate();
     }
